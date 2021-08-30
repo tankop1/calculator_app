@@ -213,3 +213,25 @@ body {
         width: 165px;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .calculator-container {
+        width: 350px;
+    }
+
+    .calc-3 {
+        grid-template: repeat(5, 60px) / repeat(4, 65px);
+        grid-gap: 15px;
+        padding-left: 25px;
+        padding-right: 35px;
+        height: 375px;
+    }
+
+    .calc-button {
+        width: 60px;
+    }
+    
+    .calc-button-long {
+        width: 140px;
+    }
+}
